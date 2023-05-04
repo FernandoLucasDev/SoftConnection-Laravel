@@ -1,0 +1,599 @@
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+/* MY CSS */
+
+p, h1, h2, h3, h4, h5, h6, a, b,label {
+  font-family: arial;
+  color: white;
+}
+
+.begin-text {
+  color: blue;
+}
+
+.end-text {
+  color: green;
+}
+
+body {
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header-content {
+  width: 100%;
+  height: 4.5rem;
+  background: black;
+  display: flex;
+}
+
+.logo-header {
+  margin-left: 2rem;
+}
+
+.button-header {
+  width: fit-content;
+  padding: 2rem;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  place-items: center;
+  border: 1px solid white;
+  color: white;
+  margin: 1rem;
+  margin-left: 2rem;
+  border-radius: 50px;
+}
+
+.button-header-mob {
+  width: fit-content;
+  padding: 2rem;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  place-items: center;
+  border: 1px solid white;
+  color: white;
+  margin: 1rem;
+  margin-left: 2rem;
+  border-radius: 50px;
+}
+
+.textarea {
+  margin-top: 1rem;
+  width: 43%;
+  height: 12rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.button-header:hover {
+  background: white;
+  color: black;
+}
+
+.icon-header {
+  margin-right: 5px;
+  color: white;
+}
+
+.is_active {
+  background: #330066;
+  color: white;
+}
+
+.div-footer {
+  width: 100%;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  background: black;
+  color: white;
+  border-top: 1px solid white;
+}
+
+.content-home {
+  width: 85%;
+  height: fit-content;
+  padding: 2rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.content-progress {
+  width: 85%;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-logo-home {
+  width: 90%;
+  height: fit-content;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.text-top-home {
+  margin-left: 3rem;
+  align-self: center;
+}
+
+.title_home {
+  margin-left: 10rem;
+  font-size: 3rem;
+}
+
+.div-title-login-cad {
+  width: 98%;
+  display: grid;
+  place-items: center;
+  margin-top: 1rem;
+}
+
+.login-cad-text {
+  font-size: 40px;
+}
+
+.div-form {
+  width: 60%;
+  margin: auto;
+  height: fit-content;
+  display: grid;
+  place-items: center;
+}
+
+.input-send {
+  background: blue;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin: auto;
+  color: white;
+}
+
+.button-login {
+  background: #006b20;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: white;
+}
+.input {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 400px; /* add max-width to prevent overflow */
+  height: 4rem;
+  border-radius: 10px;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+.input-sel {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 400px; /* add max-width to prevent overflow */
+  height: 4rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.box-select {
+  width:50%
+}
+.box1{
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 14rem;
+  padding: 20px;
+  background-color: white;
+  height: 14rem;
+  margin: 2rem;
+}
+
+.box1:hover{
+  width: 16rem;
+  height: 16rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  color: #00851f;
+  background-color: #00751b;
+  border-color: #00290a;
+  display: grid;
+  place-items: center;
+}
+
+.alert-danger {
+  color: #940000;
+  background-color: #e00000;
+  border-color: #2e0000;
+  display: grid;
+  place-items: center;
+}
+
+.inicio {
+  color: blue;
+  margin-left: 10rem;
+}
+
+.inicio2 {
+  color: green;
+   margin-left: 10rem;
+}
+
+.inicio3 {
+   margin-left: 10rem;
+}
+
+.btn-card {
+  width: 95%;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #330066;
+  border-radius:30px;
+  color: #330066;
+  background: transparent;
+}
+
+.btn-card:hover {
+  background: #330066;
+  color: white;
+  width: 98%;
+  transition: all 0.2s ease-in-out;
+}
+
+.back-admin {
+  width:100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.admin-options-header {
+  width:100%;
+  height: 2rem;
+  border-radius: 20px 20px 0px 0px;
+  background: blue;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.back-home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+/*   flex-wrap: wrap; */
+  margin-top: 3rem;
+}
+
+.options-admin {
+  display: grid;
+  place-items: center;
+  width:30rem;
+  height:fit-content;
+  padding: 0rem 0rem 1rem 0rem;
+  border: 1px solid black;
+  border-radius:20px;
+}
+
+/* Estilo para celular */
+.menu-button {
+  display: none;
+}
+
+.content-home-div {
+  width:40%
+}
+
+.content-home-div-img {
+  width:20%
+}
+
+.title-1 {
+  font-size: 40px;
+  margin-left:5rem;
+}
+
+.txt-presentation {
+  font-size: 25px;
+  margin-top: 3rem;
+  margin-left:5rem;
+}
+
+.div-center-button {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.btn-home {
+  margin: auto;
+  margin-top: 3rem;
+  width: 20rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: transparent;
+  color: white;
+  background-color: #33006671;
+  border: 3px solid #330066;
+  border-radius: 10px;
+}
+
+.btn-home-inp {
+  margin: auto;
+  margin-top: 0.5rem;
+  width: 90%;
+  max-width: 400px; /* add max-width to prevent overflow */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: transparent;
+  color: white;
+  background-color: #33006671;
+  border: 3px solid #330066;
+  border-radius: 10px;
+}
+
+.btn-home:hover {
+  background-color: #330066;
+  width: 25rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 12px 12px 14px 0px #ffffff71;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-home-inp:hover {
+  background-color: #330066;
+  transition: all 0.2s ease-in-out;
+}
+
+.switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+  float: right;
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-label {
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  position: relative;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.switch-label:before {
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  transition: transform 0.2s;
+  width: 26px;
+}
+
+.switch-input:checked + .switch-label {
+  background-color: #3cb371;
+}
+
+.switch-input:checked + .switch-label:before {
+  transform: translateX(26px);
+}
+
+.div-switch-txt {
+  display: flex;
+  width: fit-content;
+  float: right;
+  height: 34px;
+}
+
+.txt-switch {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.txt-a-form {
+  float: right;
+  margin-top: 10px;
+}
+
+.file-input-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.file-input-label {
+  display: block;
+  padding: 10px;
+  background-color: #330066;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  font-size: 100px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.file-name {
+  display: block;
+  margin-top: 10px;
+  color: white;
+}
+
+.btn-new-project {
+  width: 15rem;
+  padding: 1.4rem;
+  background: #330066;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.btn-new-project:hover {
+  box-shadow: 12px 12px 14px 0px #ffffff71;
+  transition: all 0.2s ease-in-out;
+}
+
+#mob-menu {
+  position: fixed;
+  right: 15px;
+}
+
+.mob-content-menu {
+  backgrund-color: #47a0ff;
+  width: 90%;
+  margin: auto;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 0px 0px 30px 30px;
+  display: grid;
+  place-items: center;
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+
+.input-select {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*  CSS PARA DISPOSITIVOS MÒVEIS  */
+
+@media screen and (max-width: 1068px){
+  .back-home {
+    height: fit-content;
+    display: block;
+    margin-top: 1rem;
+}
+  .content-home-div {
+    width:100%
+  }
+  
+  .content-home-div-img {
+    width:100%
+  }
+  
+  .img-logo-home {
+    width: 15rem;
+  }
+  
+    .title-1 {
+    font-size: 40px;
+    margin: auto;
+  }
+  
+  .txt-presentation {
+    font-size: 25px;
+    margin-top: 3rem;
+    margin:5rem;
+  }
+  
+  .center-mob {
+      width: 100%;
+      display: grid;
+      place-items: center;
+    }
+  .btn-home {
+    margin-top: 20px;
+    margin-bottom:10px;
+  }
+  .div-form {
+    width: 85%;
+  }
+  .input {
+    width: 90%;
+  }
+  .btn-home-inp {
+    width: 95%;
+  }
+  .bottom-submit {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .txt-presentation {
+    font-size: 25px;
+    margin-top: 3rem;
+    margin:15px;
+  }
+  .img-logo-home {
+    width: 90%;
+    height: fit-content;
+    border-radius: 30px;
+    margin-left: 20px;
+  }
+  .content-home-div-img {
+      width: 100%;
+      display: grid;
+      place-items: center;
+    }
+  .img-logo-home {
+    width: 15rem;
+  }
+  .btn-home:hover {
+    width: 20rem;
+  }
+  .div-form {
+      width: 95%;
+  }
+
+.title_home {
+  margin-left:0px;
+  font-size: 25px;
+  margin: auto;
+  }
+
+  .textarea {
+  width: 95%;
+  height: 12rem;
+}
+
+.login-cad-text {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+}
